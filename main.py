@@ -109,6 +109,7 @@ def run():
 		trainer.train()
 		if args.test_every != 0 and n % args.test_every == 0:
 			trainer.test()
+run()
 #attack1()
 #attack2()
 #attack3()
